@@ -1,0 +1,1084 @@
+
+/* ------------Responsive--------------- */
+@media (max-width: 1600px) {
+    
+    .frame .group, .frame .group-2, .frame .group-5, .frame .group-8,  .frame .group-11{
+        left: 290px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    
+    .frame .group, .frame .group-2, .frame .group-5, .frame .group-8,  .frame .group-11{
+        left: 190px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    
+    .frame .group, .frame .group-2, .frame .group-5, .frame .group-8,  .frame .group-11{
+        left: 130px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    
+    .frame .group, .frame .group-2, .frame .group-5, .frame .group-8,  .frame .group-11{
+        left: 90px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    
+    .frame .group, .frame .group-2, .frame .group-5, .frame .group-8,  .frame .group-11{
+        left: 80px;
+    }
+
+    
+    /* -----------------Education Promotion--------------------- */
+
+    .frame .overlap-group {
+        width: 480px;
+        height: 400px;
+    }
+    .frame .project {
+        position: absolute;
+        width: 291px;
+        height: 281px;
+        top: 29px;
+        left: 18px;
+    }
+    .frame .p {
+        width: 133px;
+        top: 16px;
+        left: 320px;
+    }
+    .frame .text-wrapper-2 {
+        top: 340px;
+        left: -5px;
+        font-size: 25px;
+    }
+    
+    .frame .overlap-group-wrapper {
+        width: 480px;
+        height: 441px;
+    }
+    .frame .text-wrapper {
+        width: 450px;
+        font-size: 46px;
+        top: 448px;
+    }
+    .frame .overlap-wrapper {
+        left: 496px;
+    }
+
+    .frame .overlap {
+        width: 375px;
+        height: 490px;
+    }
+
+    .frame .lap-top {
+        width: 341px;
+        height: 237px;
+        top: 30px;
+        left: 18px;
+    }
+    
+    .frame .text-wrapper-3 {
+        width: 329px;
+        top: 344px;
+        left: 28px;
+    }
+    
+    .frame .text-wrapper-4 {
+        top: 300px;
+        left: 79px;
+        font-size: 25px;
+    }
+    /* -----------------Women Empowerment--------------------- */
+    .frame .overlap-group-3 {
+        width: 535px;
+        height: 433px;
+    }
+
+    .frame .text-wrapper-14 {
+        width: 150px;
+        top: 10px;
+        left: 18px;
+    }
+
+    .frame .img {
+        width: 335px;
+        height: 314px;
+        top: 40px;
+        left: 180px;
+    }
+
+    .frame .text-wrapper-13{
+        left: 241px;
+        font-size: 25px;
+    }
+
+    .frame .text-wrapper-12 {
+        left: 347px;
+        font-size: 46px; 
+    }
+
+    /* -----------------Women Empowerment--------------------- */
+
+    .frame .overlap-group-2 {
+        width: 880px;
+    }
+    
+    .frame .hitech {
+        width: 540px;
+    }
+    
+    .frame .text-wrapper-9 {
+        font-size: 25px;
+    }
+
+    .frame .group-4 {
+        width: 376px;
+    }
+
+    .frame .overlap-4 {
+        width: 376px;
+        height: 490px;
+    }
+    .frame .overlap-3 {
+        width: 490px;
+        height: 410px;
+    }
+    .frame .veg-seed {
+        width: 456px;
+        top: 18px;
+        left: 18px;
+    }
+    .frame .overlap-2 {
+        width: 547px;
+        top: 474px;
+        left: 395px;
+    }
+    
+    .frame .text-wrapper-7 {
+        top: 222px;
+        left: 96px;
+        font-size: 26px;
+    }
+
+    .frame .text-wrapper-6 {
+        top: 269px;
+        left: 32px;
+    }
+ 
+    .frame .gallery {
+        width: 340px;
+        height: 220px;
+        top: 18px;
+        left: 18px;
+    }
+    
+    .frame .text-wrapper-10 {
+        position: absolute;
+        width: 319px;
+        top: 329px;
+        left: 28px;
+    }
+    
+    .frame .text-wrapper-11 {
+        top: 270px;
+        left: 90px;
+        font-size: 25px;
+    }
+
+    .frame .text-wrapper-5 {
+        top: 10px;
+        left: 46px;
+        font-size: 46px;
+    }
+    
+    /* -----------------Health & Wellness--------------------- */
+    .frame .health-wellness {
+        font-size: 46px;
+        }
+
+    .frame .overlap-7 {
+        width: 440px;
+         height: 500px;
+     }
+     .frame .blood-donation {
+        width: 410px;
+        height: 235px;
+        top: 18px;
+        left: 18px;
+    }
+    .frame .text-wrapper-22 {
+        left: 104px;
+        font-size: 25px;
+        }
+    .frame .text-wrapper-23 {
+        left: 35px;
+        }
+
+        .frame .overlap-group-5 {
+        width: 420px;
+        height: 580px;
+        }
+
+    .frame .group-12 {
+            left: 460px;
+    }
+
+    .frame .kidney {
+        width: 384px;
+        top: 18px;
+        left: 18px;
+        }
+
+        .frame .text-wrapper-20 {
+            top: 338px;
+            left: 90px;
+            font-size: 25px;
+        }
+            .frame .text-wrapper-21 {
+            position: absolute;
+            width: 360px;
+            top: 400px;
+            left: 31px;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            z-index: 3;
+            }
+    
+    /* -----------------Skill Development--------------------- */
+    .frame .overlap-group-4 {
+        width: 540px;
+    }
+
+    .frame .psc {
+        width: 320px;
+        height: 300px;
+        top: 28px;
+        left: 204px;
+        }
+        .frame .text-wrapper-17 {
+        top: 361px;
+        left: 250px;
+        font-size: 25px;
+        }
+        .frame .PSC-seminar-in {
+        width: 180px;
+        top: 20px;
+        left: 18px;
+        }
+
+}
+
+@media (max-width: 980px) {
+
+        .frame{
+            display: none;
+        }
+        .project_container {
+            display: block; 
+        }
+    
+        .ser_head{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ser_head h2 {
+            font-size: 37px !important;
+            text-align: center;
+            margin-left: calc(10%);
+        }
+    
+         .ser_head h3 {
+            font-size: 14px !important;
+            text-align: center;
+            margin-left: calc(10%);
+            margin-top: 0%;
+        }
+    
+        .wht_we_care h4{
+            text-align: center;
+            font-size: 35px !important;
+        }
+       
+        .project_container {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+            width: 100%; 
+            gap: 50px; 
+            padding: 20px 2%; 
+            box-sizing: border-box; 
+            margin-top: -110px;
+        }
+        
+        .education, 
+        .women_emp, 
+        .economic, 
+        .skill_dev, 
+        .health_wellness {
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+            flex-direction: row; 
+            width: 100%; 
+            max-width: 1200px; 
+            gap: 20px; 
+        }
+        
+        .schl_overlay, 
+        .lap_overlay, 
+        .wheels_overlay, 
+        .sweing_overlay, 
+        .chick_coops_overlay, 
+        .seed_overlay, 
+        .Organic_overlay, 
+        .psc_overlay, 
+        .teen_overlay, 
+        .blood_overlay, 
+        .kidney_overlay {
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
+            width: 100%; 
+            height: auto; 
+            min-height: 500px;
+            position: relative; 
+            background-size: cover; 
+            background-position: center; 
+            border-radius: 20px; 
+            overflow: hidden; 
+        }
+        
+        .schl_kit, 
+        .laptop, 
+        .Wheels, 
+        .sewing_mechine, 
+        .chick_coops, 
+        .seed, 
+        .Organic, 
+        .pcs, 
+        .teen, 
+        .blood, 
+        .kidney {
+            border-radius: 15px; 
+            max-width: 90%; 
+            height: auto; 
+            position: relative; 
+            z-index: 2;
+            top: 20px; 
+            margin-bottom: 25px; 
+        }
+        
+        .project_container .title {
+            font-size: 22px;
+            position: relative; 
+            z-index: 2; 
+            color: #fff;
+            text-align: center; 
+        }
+        
+        .project_container p {
+            font-size: 14px; 
+            line-height: 1.5; 
+            color: #fff; 
+            position: relative; 
+            z-index: 2; 
+            width: 90%; 
+            margin: 0 auto; 
+            text-align: center; 
+            margin-bottom: 20px;
+        }
+    
+        .education > div,
+        .women_emp > div, 
+        .economic > div, 
+        .skill_dev > div, 
+        .health_wellness > div {
+            width: 100%; 
+            max-width: 400px; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 0px; 
+            text-align: center; 
+            margin: 15px auto; 
+        }
+        
+        
+        
+        
+        .grp_1 h3, .grp_2 h3,.grp_3 h3, .grp_4 h3 ,.grp_5 h3 {
+            background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+            -webkit-background-clip: text !important;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: transparent;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            white-space: nowrap;   
+            z-index: 4;
+            margin-bottom: 0px;
+            margin-top: 70px;
+        }
+        
+        .schl_overlay, .lap_overlay {
+            background-image: url('Images/project.jpg'); 
+        }
+        
+        .wheels_overlay {
+            background-image: url('Images/gallery 9.jpg'); 
+        }
+    
+        .sweing_overlay {
+            background-image: url('Images/lap_top.jpg'); 
+        }
+    
+        .chick_coops_overlay {
+            background-image: url('Images/hitech.jpeg'); 
+        }
+    
+        .seed_overlay {
+            background-image: url('Images/veg seed.jpeg'); 
+        }
+    
+        .Organic_overlay {
+            background-image: url('Images/gallery12.jpeg'); 
+        }
+    
+        .psc_overlay {
+            background-image: url('Images/psc.jpg'); 
+        }
+        .teen_overlay {
+            background-image: url('Images/teen path.jpeg'); 
+        }
+    
+        .blood_overlay {
+            background-image: url('Images/kidney.jpeg'); 
+        }
+    
+        .kidney_overlay {
+            background-image: url('Images/blood donation.jpg'); 
+        }
+        
+        .schl_overlay::before, .lap_overlay::before, .wheels_overlay::before, .sweing_overlay::before, .chick_coops_overlay::before, .seed_overlay::before, .Organic_overlay::before, .psc_overlay::before, .teen_overlay::before, .blood_overlay::before, .kidney_overlay::before{
+            content: ""; 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            right: 0; 
+            bottom: 0; 
+            background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3, 26, 56, 0.9) 100%);
+            z-index: 1; 
+            border-radius: 20px; 
+        }
+    
+}
+
+ 
+@media (max-width: 768px) {
+
+    .frame{
+        display: none;
+    }
+    .project_container {
+        display: block; 
+    }
+
+    .ser_head{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ser_head h2 {
+        font-size: 37px !important;
+        text-align: center;
+        margin-left: calc(10%);
+    }
+
+    .ser_head h3 {
+        font-size: 14px !important;
+        text-align: center;
+        margin-left: calc(10%);
+        margin-top: 0%;
+    }
+
+    .wht_we_care h4{
+        text-align: center;
+        font-size: 35px !important;
+    }
+   
+
+    .project_container {
+        display: flex;
+        flex-direction: column; 
+        gap: 2%; 
+        width: 100%; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 20px 2%; 
+        box-sizing: border-box; 
+        margin-top: -110px;
+    }
+    
+    .education, 
+    .women_emp, 
+    .economic, 
+    .skill_dev, 
+    .health_wellness {
+        max-width: 500px; 
+        width: 100%; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        padding: 20px; 
+        text-align: center; 
+        margin: 0 auto; 
+        box-sizing: border-box; 
+        gap: 15px;
+    }
+    
+    .education > div,
+    .women_emp > div, 
+    .economic > div, 
+    .skill_dev > div, 
+    .health_wellness > div {
+        width: 100%; 
+        max-width: 400px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 0px; 
+        text-align: center; 
+        margin: 15px auto; 
+    }
+    
+    
+    
+    
+    .grp_1 h3, .grp_2 h3,.grp_3 h3, .grp_4 h3 ,.grp_5 h3 {
+        background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+        -webkit-background-clip: text !important;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: transparent;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;   
+        z-index: 4;
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+
+    
+    .schl_overlay, .lap_overlay, .wheels_overlay, .sweing_overlay, .chick_coops_overlay, .seed_overlay, .Organic_overlay, .psc_overlay, .teen_overlay, .blood_overlay, .kidney_overlay {
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        background-size: cover; 
+        background-position: center; 
+        border-radius: 20px; 
+        overflow: hidden; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .schl_overlay{
+        background-image: url('Images/project.jpg'); 
+    }
+    .lap_overlay {
+        background-image: url('Images/lap_top.jpg'); 
+    }
+    
+    .wheels_overlay {
+        background-image: url('Images/gallery 9.jpg'); 
+    }
+
+    .sweing_overlay {
+        background-image: url('Images/lap_top.jpg'); 
+    }
+
+    .chick_coops_overlay {
+        background-image: url('Images/hitech.jpeg'); 
+    }
+
+    .seed_overlay {
+        background-image: url('Images/veg seed.jpeg'); 
+    }
+
+    .Organic_overlay {
+        background-image: url('Images/gallery12.jpeg'); 
+    }
+
+    .psc_overlay {
+        background-image: url('Images/psc.jpg'); 
+    }
+    .teen_overlay {
+        background-image: url('Images/teen path.jpeg'); 
+    }
+
+    .blood_overlay {
+        background-image: url('Images/kidney.jpeg'); 
+    }
+
+    .kidney_overlay {
+        background-image: url('Images/blood donation.jpg'); 
+    }
+    
+    .schl_overlay::before, .lap_overlay::before, .wheels_overlay::before, .sweing_overlay::before, .chick_coops_overlay::before, .seed_overlay::before, .Organic_overlay::before, .psc_overlay::before, .teen_overlay::before, .blood_overlay::before, .kidney_overlay::before{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3, 26, 56, 0.9) 100%);
+        z-index: 1; 
+        border-radius: 20px; 
+    }
+    
+    .schl_kit , .laptop, .Wheels, .sewing_mechine, .chick_coops , .seed , .Organic, .pcs, .teen, .blood, .kidney {
+        border-radius: 15px; 
+        max-width: 90%; 
+        height: auto; 
+        position: relative; 
+        z-index: 2;
+        top: 20px; 
+        margin-bottom: 25px;
+    }
+    
+    .project_container .title {
+        font-size: 22px;
+        position: relative; 
+        z-index: 2; 
+        color: #fff;
+    }
+    
+    .project_container p {
+        font-size: 14px; 
+        line-height: 1.5; 
+        color: #fff; 
+        position: relative; 
+        z-index: 2; 
+        width: 90%; 
+        margin: 0 auto; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+@media (max-width: 576px) {
+
+    .frame{
+        display: none;
+    }
+    .project_container {
+        display: block; 
+      }
+    
+    .ser_head h2 {
+        font-size: 32px !important;
+        text-align: center;
+        margin-left: calc(10%);
+    }
+
+    .ser_head h3 {
+        font-size: 14px !important;
+        text-align: center;
+        margin-bottom: 0;
+    }
+   
+    .project_container {
+        display: flex;
+        flex-direction: column; 
+        gap: 2%;
+        width: 100%; 
+        max-width: 600px; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 20px 2%; 
+        box-sizing: border-box; 
+        margin-top: -110px;
+    }
+    
+
+    .grp_1 h3, .grp_2 h3,.grp_3 h3, .grp_4 h3 ,.grp_5 h3 {
+        background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+        -webkit-background-clip: text !important;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: transparent;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;   
+        z-index: 4;
+    }
+    
+    .education, 
+    .women_emp, 
+    .economic, 
+    .skill_dev, 
+    .health_wellness {
+        width: 100%; 
+        max-width: 500px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        padding: 20px; 
+        text-align: center; 
+        margin-bottom: -20px; 
+        box-sizing: border-box; 
+    }
+    
+    .education > div,
+    .women_emp > div, 
+    .economic > div, 
+    .skill_dev > div, 
+    .health_wellness > div {
+        width: 100%; 
+        max-width: 400px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 0px; 
+        text-align: center; 
+        margin-bottom: 15px;
+    }
+    
+    .schl_overlay, .lap_overlay, .wheels_overlay, .sweing_overlay, .chick_coops_overlay, .seed_overlay, .Organic_overlay, .psc_overlay, .teen_overlay, .blood_overlay, .kidney_overlay {
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        background-size: cover; 
+        background-position: center; 
+        border-radius: 20px; 
+        overflow: hidden; 
+    }
+
+    .schl_overlay{
+        background-image: url('Images/project.jpg');
+    }
+    .lap_overlay {
+        background-image: url('Images/lap_top.jpg'); 
+    }
+    
+    .wheels_overlay {
+        background-image: url('Images/gallery 9.jpg'); 
+    }
+
+    .sweing_overlay {
+        background-image: url('Images/lap_top.jpg'); 
+    }
+
+    .chick_coops_overlay {
+        background-image: url('Images/hitech.jpeg'); 
+    }
+
+    .seed_overlay {
+        background-image: url('Images/veg seed.jpeg'); 
+    }
+
+    .Organic_overlay {
+        background-image: url('Images/gallery12.jpeg'); 
+    }
+
+    .psc_overlay {
+        background-image: url('Images/psc.jpg'); 
+    }
+    .teen_overlay {
+        background-image: url('Images/teen path.jpeg'); 
+    }
+
+    .blood_overlay {
+        background-image: url('Images/kidney.jpeg'); 
+    }
+
+    .kidney_overlay {
+        background-image: url('Images/blood donation.jpg'); 
+    }
+    
+    .schl_overlay::before, .lap_overlay::before, .wheels_overlay::before, .sweing_overlay::before, .chick_coops_overlay::before, .seed_overlay::before, .Organic_overlay::before, .psc_overlay::before, .teen_overlay::before, .blood_overlay::before, .kidney_overlay::before{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3, 26, 56, 0.9) 100%);
+        z-index: 1; 
+        border-radius: 20px; 
+    }
+    
+    .schl_kit , .laptop, .Wheels, .sewing_mechine, .chick_coops , .seed , .Organic, .pcs, .teen, .blood, .kidney {
+        border-radius: 15px; 
+        max-width: 90%; 
+        height: auto; 
+        position: relative; 
+        z-index: 2;
+        top: 20px; 
+        margin-bottom: 25px;
+    }
+    
+    .project_container .title {
+        font-size: 22px;
+        position: relative; 
+        z-index: 2; 
+        color: #fff;
+    }
+    
+    .project_container p {
+        font-size: 14px; 
+        line-height: 1.5; 
+        color: #fff; 
+        position: relative; 
+        z-index: 2; 
+        width: 90%; 
+        margin: 0 auto; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+ 
+/* @media (max-width: 768px) {
+
+    .frame{
+        display: none;
+    }
+    .project_container {
+        display: block; 
+    }
+
+    .project_container .ser_head{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project_container .ser_head h2 {
+        font-size: 37px !important;
+        text-align: center;
+        margin-left: calc(10%);
+    }
+
+    .project_container .ser_head h3 {
+        font-size: 14px !important;
+        text-align: center;
+        margin-left: calc(10%);
+        margin-top: 0%;
+    }
+
+    .wht_we_care h4{
+        text-align: center;
+        font-size: 35px !important;
+    }
+   
+
+    .project_container {
+        display: flex;
+        flex-direction: column; 
+        gap: 2%; 
+        width: 100%; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 20px 2%; 
+        box-sizing: border-box; 
+        margin-top: -110px;
+    }
+    
+    .education, 
+    .women_emp, 
+    .economic, 
+    .skill_dev, 
+    .health_wellness {
+        max-width: 500px; 
+        width: 100%; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        padding: 20px; 
+        text-align: center; 
+        margin: 0 auto; 
+        box-sizing: border-box; 
+        gap: 15px;
+    }
+    
+    .education > div,
+    .women_emp > div, 
+    .economic > div, 
+    .skill_dev > div, 
+    .health_wellness > div {
+        width: 100%; 
+        max-width: 400px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 0px; 
+        text-align: center; 
+        margin: 15px auto; 
+    }
+    
+    
+    
+    
+    .grp_1 h3, .grp_2 h3,.grp_3 h3, .grp_4 h3 ,.grp_5 h3 {
+        background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+        -webkit-background-clip: text !important;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: transparent;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;   
+        z-index: 4;
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+
+    
+    .schl_overlay, .lap_overlay, .wheels_overlay, .sweing_overlay, .chick_coops_overlay, .seed_overlay, .Organic_overlay, .psc_overlay, .teen_overlay, .blood_overlay, .kidney_overlay {
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        background-size: cover; 
+        background-position: center; 
+        border-radius: 20px; 
+        overflow: hidden; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .schl_overlay{
+        background-image: url('Images/project.jpg'); 
+    }
+    .lap_overlay {
+        background-image: url('Images/lap_top.jpg'); 
+    }
+    
+    .wheels_overlay {
+        background-image: url('Images/gallery 9.jpg'); 
+    }
+
+    .sweing_overlay {
+        background-image: url('Images/lap_top.jpg'); 
+    }
+
+    .chick_coops_overlay {
+        background-image: url('Images/hitech.jpeg'); 
+    }
+
+    .seed_overlay {
+        background-image: url('Images/veg seed.jpeg'); 
+    }
+
+    .Organic_overlay {
+        background-image: url('Images/gallery12.jpeg'); 
+    }
+
+    .psc_overlay {
+        background-image: url('Images/psc.jpg'); 
+    }
+    .teen_overlay {
+        background-image: url('Images/teen path.jpeg'); 
+    }
+
+    .blood_overlay {
+        background-image: url('Images/kidney.jpeg'); 
+    }
+
+    .kidney_overlay {
+        background-image: url('Images/blood donation.jpg'); 
+    }
+    
+    .schl_overlay::before, .lap_overlay::before, .wheels_overlay::before, .sweing_overlay::before, .chick_coops_overlay::before, .seed_overlay::before, .Organic_overlay::before, .psc_overlay::before, .teen_overlay::before, .blood_overlay::before, .kidney_overlay::before{
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3, 26, 56, 0.9) 100%);
+        z-index: 1; 
+        border-radius: 20px; 
+    }
+    
+    .schl_kit , .laptop, .Wheels, .sewing_mechine, .chick_coops , .seed , .Organic, .pcs, .teen, .blood, .kidney {
+        border-radius: 15px; 
+        max-width: 90%; 
+        height: auto; 
+        position: relative; 
+        z-index: 2;
+        top: 20px; 
+        margin-bottom: 25px;
+    }
+    
+    .project_container .title {
+        font-size: 22px;
+        position: relative; 
+        z-index: 2; 
+        color: #fff;
+    }
+    
+    .project_container p {
+        font-size: 14px; 
+        line-height: 1.5; 
+        color: #fff; 
+        position: relative; 
+        z-index: 2; 
+        width: 90%; 
+        margin: 0 auto; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+
+} */
+
+ 

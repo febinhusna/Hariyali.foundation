@@ -1,0 +1,1017 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Marcellus&family=Maven+Pro:wght@400..900&display=swap');
+    
+ html {
+ scroll-behavior: smooth;
+}
+
+ .ser_head{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+ .ser_head h2{
+     width: 80%;
+ font-size: 55px ;
+ background: linear-gradient(to right, #094A9E 0%, #031A38); 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ line-height: 1.2;
+ padding: auto;
+ margin-left: 15%;
+ }
+
+ .wht_we_care h4{
+     text-align: center;
+     font-size: 55px ;
+ background: linear-gradient(to right, #094A9E 0%, #031A38); 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ margin-top: 0px;
+ }
+ 
+ .ser_head h3{
+     width: 80%;
+ font-size: 20px ;
+ background: linear-gradient(to right, rgb(9, 74, 158) 0%, rgb(3, 26, 56)); 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ line-height: 1.6;
+ padding: auto;
+ margin-top: 10%;
+ text-align: right;
+ }
+ .services_groups {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 60px;
+ padding: 60px;
+ justify-items: center;
+ animation: fadeIn 1.5s ease;
+ margin: 0 auto;
+ max-width: 1600px;
+ background-color: #fff;
+ border-radius: 10px;
+ text-align: center;
+ 
+}
+
+.services_groups img {
+ width: 50px;
+ height: 40px;
+ margin-left: 10px;
+}
+.ser_grp2 img{
+ width: 35px;
+}
+
+.services_groups h3 {
+ font-family: Marcellus;
+}
+
+.services_groups p {
+ font-family: 'Maven Pro', sans-serif;
+ line-height: 1.5;
+ font-size: 12px;
+ text-align: justify;
+}
+.ser_box {
+ width: fit-content; 
+ min-height: 350px;
+ padding: 0 20px; 
+ flex-shrink: 1; 
+ border-radius: 20px;
+ background: #A5C9E5;
+ display: flex;
+ flex-direction: column;
+}
+.ser_box:hover{
+ transform: scale(1.1); 
+ box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ser_grp1, .ser_grp2, .ser_grp3, .ser_grp4, .ser_grp5, .ser_grp6 {
+ display: flex;
+ align-items: center;
+ gap: 6px; 
+}
+
+.ser_line {
+ width: 6px;
+ height: 80%; 
+ border-radius: 20px;
+ background: #094A9E;
+ 
+}
+
+@media (max-width: 1024px) {
+ .services_groups {
+     grid-template-columns: repeat(2, 1fr); 
+     gap: 30px; 
+     padding: 30px; 
+ }
+
+}
+
+@media (max-width: 600px) {
+ .services_groups {
+     grid-template-columns: 1fr; 
+     gap: 35px;
+     padding: 40px; 
+     margin: 10px 30px 10px 30px;
+ }
+ .ser_head{
+     grid-template-columns: 1fr; 
+ }
+ .ser_head h3{
+     margin-left: 10%;
+ }
+}
+
+hr.section_divider {
+width: 80%;
+height: 5px;
+background: linear-gradient(90deg, #094A9E 0%, #031A38 100%);
+margin: 20px auto;
+border: none;
+}
+
+ .project_container{
+    display: none;
+}
+/* -----------------group 1--------------------- */
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.frame .div {
+    background-color: #ffffff;
+    width: 80vw;
+    height: 3700px;
+    position: relative;
+}
+
+
+.frame .group {
+    position: absolute;
+    width: 1023px;
+    height: 520px;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    width: 517px;
+    top: 468px;
+    left: 3px;
+    background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: transparent;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;   
+    z-index: 4;
+}
+
+.frame .overlap-group-wrapper {
+    position: absolute;
+    width: 555px;
+    height: 441px;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.frame .overlap-group {
+    position: relative;
+    width: 551px;
+    height: 441px;
+    background-image: url('Images/project.jpg');
+    background-size: 100% 100%;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.frame .overlap-group::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.frame .project {
+    position: absolute;
+    width: 361px;
+    height: 281px;
+    top: 59px;
+    left: 22px;
+    z-index: 2; 
+}
+
+.frame .p {
+    position: absolute;
+    width: 132px;
+    top: 46px;
+    left: 395px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;   
+    z-index: 4;
+}
+
+.frame .text-wrapper-2 {
+    position: absolute;
+    width: 328px;
+    top: 364px;
+    left: 28px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;  
+    z-index: 4;
+}
+
+.frame .overlap-wrapper {
+    position: absolute;
+    width: 439px;
+    height: 520px;
+    top: 0;
+    left: 586px;
+}
+
+.frame .overlap {
+    position: relative;
+    width: 435px;
+    height: 520px;
+    background-image: url('Images/lap_top.jpg');
+    background-size: 100% 100%;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.frame .overlap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+    z-index: 1;
+    border-radius: 20px; 
+}
+
+.frame .lap-top {
+    position: absolute;
+    width: 371px;
+    height: 257px;
+    top: 30px;
+    left: 34px;
+    z-index: 2; 
+}
+
+.frame .text-wrapper-3 {
+    position: absolute;
+    width: 329px;
+    top: 384px;
+    left: 53px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal; 
+    z-index: 4;
+}
+
+.frame .text-wrapper-4 {
+    position: absolute;
+    top: 316px;
+    left: 89px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;    
+    z-index: 4;
+}
+
+/* -----------------group 2--------------------- */
+ 
+
+.frame .group-2 {
+    position: absolute;
+    width: 1030px; 
+    height: 1006px; 
+    top: 1263px; 
+    z-index: 2;
+}
+
+.frame .overlap-2 {
+    position: absolute;
+    width: 547px;
+    height: 532px;
+    top: 474px;
+    left: 485px;
+    z-index: 1;
+}
+
+.frame .text-wrapper-5 {
+    top: 0;
+    left: 36px;
+    position: absolute;
+    background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: transparent;
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .div-wrapper {
+    position: absolute;
+    width: 547px;
+    height: 439px;
+    top: 93px;
+    left: 0;
+    z-index: 1;
+}
+
+.frame .overlap-3 {
+    position: relative;
+    width: 543px;
+    height: 439px;
+    background-image: url('Images/veg seed.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.frame .overlap-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+    z-index: 2;
+}
+
+.frame .veg-seed {
+    position: absolute;
+    width: 496px;
+    height: 183px;
+    top: 27px;
+    left: 25px;
+    z-index: 3;
+}
+
+.frame .text-wrapper-6 {
+    position: absolute;
+    width: 422px;
+    top: 299px;
+    left: 60px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .text-wrapper-7 {
+    position: absolute;
+    width: 285px;
+    top: 232px;
+    left: 129px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .group-3 {
+    position: absolute;
+    width: 1022px;
+    height: 459px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.frame .overlap-group-2 {
+    position: relative;
+    width: 1018px;
+    height: 459px;
+    background-image: url('Images/hitech.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.frame .overlap-group-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+    z-index: 2;
+}
+
+.frame .hitech {
+    position: absolute;
+    width: 658px;
+    height: 350px;
+    top: 34px;
+    left: 30px;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.frame .text-wrapper-8 {
+    position: absolute;
+    width: 190px;
+    top: 60px;
+    /* left: 700px; */
+    right: 80px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .text-wrapper-9 {
+    position: absolute;
+    width: 380px;
+    bottom: 20px;
+    left: 129px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .group-4 {
+    position: absolute;
+    width: 460px;
+    height: 516px;
+    top: 490px;
+    left: 0;
+}
+
+.frame .overlap-4 {
+    position: relative;
+    width: 456px;
+    height: 516px;
+    background-image: url('Images/veg seed.jpeg');
+    background-size: 100% 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.frame .overlap-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+    z-index: 2;
+}
+
+.frame .gallery {
+    position: absolute;
+    width: 410px;
+    height: 280px;
+    display: block;              
+    vertical-align: top;         
+    top: 29px;
+    left: 21px;
+    height: auto;                
+    margin: 0;                   
+    padding: 0; 
+    z-index: 3;                 
+}
+
+.frame .text-wrapper-10 {
+    position: absolute;
+    width: 359px;
+    top: 369px;
+    left: 48px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .text-wrapper-11 {
+    position: absolute;
+    top: 324px;
+    left: 108px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+}
+
+/* -----------------group 3--------------------- */
+.frame .group-5 {
+    position: absolute;
+    width: 1033px; 
+    height: 507px; 
+    top: 620px; 
+    }
+    .frame .text-wrapper-12 {
+    position: absolute; 
+    width: 567px; 
+    top: 474px;
+    left: 407px;
+    background: linear-gradient( 180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: transparent;
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    
+    }
+    .frame .group-6 {
+    position: absolute;
+    width: 697px;
+    height: 433px;
+    top: 0;
+    left: 338px;
+    }
+    .frame .overlap-group-3 {
+    position: relative;
+    width: 693px;
+    height: 433px;
+    background-image: url('Images/gallery 9.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    }
+    .frame .overlap-group-3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+        z-index: 2;
+        border-radius: 20px;
+    }
+    .frame .img {
+        position: absolute;
+    width: 425px;
+    height: 314px;
+    top: 50px;
+    left: 238px;
+    object-fit: cover;
+    z-index: 3;
+    }
+    .frame .text-wrapper-13{
+    position: absolute;
+    top: 381px;
+    left: 321px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+    }
+    .frame .text-wrapper-14 {
+    position: absolute;
+    width: 179px;
+    top: 44px;
+    left: 39px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+    }
+    .frame .group-7 {
+    position: absolute;
+    width: 320px;
+    height: 504px;
+    top: 0;
+    left: 0;
+    }
+    .frame .overlap-5 {
+    position: relative;
+    width: 316px;
+    height: 524px;
+    background-image: url('Images/sewing.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 20px;
+    }
+    .frame .overlap-5::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+        z-index: 2;
+        border-radius: 20px;
+    }
+    .frame .sewing {
+    position: absolute;
+    width: 281px;
+    height: 188px;
+    top: 19px;
+    left: 18px;
+    object-fit: cover;
+    z-index: 3;
+    }
+    .frame .text-wrapper-15 {
+    position: absolute;
+    top: 217px;
+    left: 18px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+    }
+    .frame .text-wrapper-16 {
+    position: absolute;
+    width: 295px;
+    top: 261px;
+    left: 10px;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 3;
+    }
+   
+    /* -----------------group 3--------------------- */
+
+    .frame .group-8 {
+        position: absolute;
+        width: 1030px;
+        height: 515px;
+        top: 3100px;
+        }
+        .frame .group-9 {
+        position: absolute;
+        width: 694px;
+        height: 433px;
+        top: 0;
+        left: 338px;
+        }
+        .frame .overlap-group-4 {
+        position: relative;
+        width: 690px;
+        height: 433px;
+        background-image: url('Images/psc.jpg');
+        background-size: 100% 100%;
+        border-radius: 20px;
+        }
+        .frame .overlap-group-4::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+            z-index: 2;
+            border-radius: 20px;
+        }
+        .frame .psc {
+        position: absolute;
+        width: 419px;
+        height: 333px;
+        top: 30px;
+        left: 254px;
+        z-index: 3;
+        border-radius: 20px;
+        }
+        .frame .text-wrapper-17 {
+        position: absolute;
+        top: 381px;
+        left: 315px;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        z-index: 3;
+        }
+        .frame .PSC-seminar-in {
+        position: absolute;
+        width: 202px;
+        top: 45px;
+        left: 25px;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: normal;
+        z-index: 3;
+        }
+        .frame .group-10 {
+        position: absolute;
+        width: 320px;
+        height: 515px;
+        top: 0;
+        left: 0;
+        }
+        .frame .overlap-6 {
+        position: relative;
+        width: 316px;
+        height: 515px;
+        background-image: url('Images/teen path.jpeg');
+        background-size: 100% 100%;
+        border-radius: 20px;
+        }
+        .frame .overlap-6::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+            z-index: 2;
+            border-radius: 20px;
+        }
+        .frame .teen-path {
+        position: absolute;
+        width: 280px;
+        height: 200px;
+        top: 20px;
+        left: 17px;
+        z-index: 3;
+        border-radius: 20px;
+        }
+       
+        .frame .text-wrapper-18 {
+        width: 279px;
+        top: 229px;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        left: 18px;
+        z-index: 3;
+        }
+        .frame .text-wrapper-19 {
+        position: absolute;
+        width: 263px;
+        top: 291px;
+        left: 26px;
+        font-family: Marcellus;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        z-index: 3;
+        }
+
+         /* -----------------group 3--------------------- */
+        
+        .frame .group-11 {
+        position: absolute;
+        width: 1030px;
+        height: 709px;
+        top: 2395px;
+        }
+        .frame .group-12 {
+            position: absolute;
+            width: 536px; height: 699px; top: 10px;
+            left: 496px;
+            }
+            .frame .overlap-group-5 {
+                position: relative;
+            width: 532px;
+            height: 590px;
+            background-image: url('Images/kidney.jpeg');
+            background-size: cover;
+            background-position: 50% 50%;
+            border-radius: 20px;
+            }
+            .frame .overlap-group-5::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+                z-index: 2;
+                border-radius: 20px;
+            }
+            .frame .kidney {
+            position: absolute;
+            width: 481px;
+            height: 290px;
+            top: 26px;
+            left: 25px;
+            object-fit: cover;
+            z-index: 3;
+            border-radius: 20px;
+            }
+            
+            .frame .text-wrapper-20 {
+            position: absolute;
+            width: 251px;
+            top: 328px;
+            left: 141px;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            z-index: 3;
+            }
+            .frame .text-wrapper-21 {
+            position: absolute;
+            width: 460px;
+            top: 400px;
+            left: 51px;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            z-index: 3;
+            }
+            .frame .health-wellness {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(
+            180deg,
+            rgb(9, 74, 158) 0%,rgb(3.19, 26.23, 56) 100%
+            );
+            -webkit-background-clip: text !important;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: transparent;
+            font-size: 54px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            }
+            .frame .group-13 {
+            position: absolute;
+            width: 476px;
+            height: 627px;
+            top: 82px;
+            left: 0;
+            }
+            .frame .overlap-7 {
+            position: relative;
+            width: 472px;
+            height: 515px;
+            background-image: url('Images/blood donation.jpg');
+            background-size: cover;
+            background-position: 50% 50%;
+            border-radius: 20px;
+            }
+            .frame .overlap-7::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3.19, 26.23, 56, 0.9) 100%);
+                z-index: 2;
+                border-radius: 20px;
+            }
+            .frame .blood-donation {
+            position: absolute;
+            width: 429px;
+            height: 225px;
+            top: 37px;
+            left: 22px;
+            z-index: 3;
+            border-radius: 20px;
+            }
+            .frame .text-wrapper-22 {
+            position: absolute;
+            width: 224px;
+            top: 296px;
+            left: 124px;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            z-index: 3;
+            }
+            .frame .text-wrapper-23 {
+            position: absolute;
+            width: 370px;
+            top: 344px;
+            left: 50px;
+            font-family: Marcellus;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            z-index: 3;
+            }
+

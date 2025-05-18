@@ -1,0 +1,107 @@
+.grp_1 h3, .grp_2 h3,.grp_3 h3, .grp_4 h3 ,.grp_5 h3 {
+    background: linear-gradient(180deg, rgb(9, 74, 158) 0%, rgb(3.19, 26.23, 56) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: Marcellus;
+    font-weight: 400;
+    color: transparent;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;   
+    z-index: 4;
+}
+.edu_1 { grid-area: box_1; }
+.edu_2 { grid-area: box_2; }
+.edu_3 { grid-area: edu_head; }
+
+.edu_container{
+    display: grid;
+    grid-template-areas:
+    'box_1 box_2 box_2'
+    'box_1  box_2 box_2 '
+    'edu_head box_2 box_2';
+  gap: 10px;
+  padding: 10px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.edu_1, 
+.edu_2 {
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+.edu_1 img, 
+.edu_2 img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 15px;
+}
+
+.schl_overlay, .lap_overlay, .wheels_overlay, .sweing_overlay, .chick_coops_overlay, .seed_overlay, .Organic_overlay, .psc_overlay, .teen_overlay, .blood_overlay, .kidney_overlay {
+    width: 100%; 
+    height: auto; 
+    position: relative; 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.schl_overlay{
+    background-image: url('Images/project.jpg');
+}
+.lap_overlay {
+    background-image: url('Images/lap_top.jpg'); 
+}
+
+.schl_overlay::before, .lap_overlay::before, .wheels_overlay::before, .sweing_overlay::before, .chick_coops_overlay::before, .seed_overlay::before, .Organic_overlay::before, .psc_overlay::before, .teen_overlay::before, .blood_overlay::before, .kidney_overlay::before{
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: linear-gradient(180deg, rgba(9, 74, 158, 0.8) 0%, rgba(3, 26, 56, 0.9) 100%);
+    z-index: 1; 
+    border-radius: 20px; 
+}
+
+.eduImg_1 , .eduImg_2, .Wheels, .sewing_mechine, .chick_coops , .seed , .Organic, .pcs, .teen, .blood, .kidney {
+    border-radius: 15px; 
+    max-width: 90%; 
+    height: auto; 
+    position: relative; 
+    z-index: 2;
+    top: 20px; 
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 22px;
+    position: relative; 
+    z-index: 2; 
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 14px; 
+    line-height: 1.5; 
+    color: #fff; 
+    position: relative; 
+    z-index: 2; 
+    width: 90%; 
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 20px;
+}
